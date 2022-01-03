@@ -1,0 +1,4 @@
+bases:
+- overlays
+commonLabels:
+  app.openshift.io/vcs-source: zhengbin78/gitops

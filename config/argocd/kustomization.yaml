@@ -1,0 +1,6 @@
+resources:
+- argo-app.yaml
+- cicd-app.yaml
+- zb-dev-app-taxi-app.yaml
+- zb-dev-env-app.yaml
+- zb-stage-env-app.yaml

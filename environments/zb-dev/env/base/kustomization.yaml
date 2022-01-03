@@ -1,0 +1,3 @@
+resources:
+- zb-dev-environment.yaml
+- zb-dev-rolebinding.yaml
