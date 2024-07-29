@@ -11,7 +11,8 @@ spec:
     name: DRYRUN
     type: string
   steps:
-  - image: quay.io/redhat-developer/k8s-kubectl
+  - computeResources: {}
+    image: quay.io/redhat-developer/k8s-kubectl
     name: run-kubectl
     script: |
       #!/bin/bash
