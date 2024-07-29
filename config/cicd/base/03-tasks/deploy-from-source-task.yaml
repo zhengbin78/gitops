@@ -4,6 +4,8 @@ metadata:
   creationTimestamp: null
   name: deploy-from-source-task
   namespace: cicd
+  labels:
+    app.kubernetes.io/instance: cicd-app
 spec:
   params:
   - default: "false"
