@@ -28,9 +28,6 @@ spec:
     type: string
   - name: GIT_REPO
     type: string
-  resources:
-  - name: source-repo
-    type: git
   tasks:
   - name: set-pending-status
     params:
